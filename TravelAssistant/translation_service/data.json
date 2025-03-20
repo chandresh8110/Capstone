@@ -1,0 +1,752 @@
+[
+    {
+      "phrase": "Hello",
+      "category": "Greeting",
+      "translations": {
+        "hi": {"translatedPhrase": "नमस्ते", "pronunciation": "Namaste", "ttsUrl": "https://example.com/tts/namaste.mp3"},
+        "gu": {"translatedPhrase": "હેલો", "pronunciation": "Helo", "ttsUrl": "https://example.com/tts/helo_gu.mp3"},
+        "ja": {"translatedPhrase": "こんにちは", "pronunciation": "Konnichiwa", "ttsUrl": "https://example.com/tts/konnichiwa.mp3"},
+        "es": {"translatedPhrase": "Hola", "pronunciation": "O-la", "ttsUrl": "https://example.com/tts/hola.mp3"},
+        "fr": {"translatedPhrase": "Bonjour", "pronunciation": "Bohn-zhoor", "ttsUrl": "https://example.com/tts/bonjour.mp3"},
+        "ko": {"translatedPhrase": "안녕하세요", "pronunciation": "Annyeonghaseyo", "ttsUrl": "https://example.com/tts/annyeonghaseyo.mp3"},
+        "zh": {"translatedPhrase": "你好", "pronunciation": "Nǐ hǎo", "ttsUrl": "https://example.com/tts/ni_hao.mp3"},
+        "ru": {"translatedPhrase": "Здравствуйте", "pronunciation": "Zdravstvuyte", "ttsUrl": "https://example.com/tts/zdravstvuyte.mp3"},
+        "de": {"translatedPhrase": "Hallo", "pronunciation": "Ha-lo", "ttsUrl": "https://example.com/tts/hallo.mp3"}
+      }
+    },
+    {
+      "phrase": "Thank you",
+      "category": "Gratitude",
+      "translations": {
+        "hi": {"translatedPhrase": "धन्यवाद", "pronunciation": "Dhanyavaad", "ttsUrl": "https://example.com/tts/dhanyavaad.mp3"},
+        "gu": {"translatedPhrase": "આભાર", "pronunciation": "Aabhar", "ttsUrl": "https://example.com/tts/aabhar_gu.mp3"},
+        "ja": {"translatedPhrase": "ありがとうございます", "pronunciation": "Arigatō gozaimasu", "ttsUrl": "https://example.com/tts/arigato_gozaimasu.mp3"},
+        "es": {"translatedPhrase": "Gracias", "pronunciation": "Gra-thee-as", "ttsUrl": "https://example.com/tts/gracias.mp3"},
+        "fr": {"translatedPhrase": "Merci", "pronunciation": "Mehr-see", "ttsUrl": "https://example.com/tts/merci.mp3"},
+        "ko": {"translatedPhrase": "감사합니다", "pronunciation": "Kamsahamnida", "ttsUrl": "https://example.com/tts/kamsahamnida.mp3"},
+        "zh": {"translatedPhrase": "谢谢", "pronunciation": "Xièxiè", "ttsUrl": "https://example.com/tts/xiexie.mp3"},
+        "ru": {"translatedPhrase": "Спасибо", "pronunciation": "Spasibo", "ttsUrl": "https://example.com/tts/spasibo.mp3"},
+        "de": {"translatedPhrase": "Danke", "pronunciation": "Dan-keh", "ttsUrl": "https://example.com/tts/danke.mp3"}
+      }
+    },
+    {
+      "phrase": "Goodbye",
+      "category": "Farewell",
+      "translations": {
+        "hi": {"translatedPhrase": "अलविदा", "pronunciation": "Alvida", "ttsUrl": "https://example.com/tts/alvida.mp3"},
+        "gu": {"translatedPhrase": "આવજો", "pronunciation": "Aavjo", "ttsUrl": "https://example.com/tts/aavjo_gu.mp3"},
+        "ja": {"translatedPhrase": "さようなら", "pronunciation": "Sayōnara", "ttsUrl": "https://example.com/tts/sayonara.mp3"},
+        "es": {"translatedPhrase": "Adiós", "pronunciation": "Ah-dee-os", "ttsUrl": "https://example.com/tts/adios.mp3"},
+        "fr": {"translatedPhrase": "Au revoir", "pronunciation": "Oh ruh-vwah", "ttsUrl": "https://example.com/tts/au_revoir.mp3"},
+        "ko": {"translatedPhrase": "안녕히 가세요", "pronunciation": "Annyeonghi gaseyo", "ttsUrl": "https://example.com/tts/annyeonghi_gaseyo.mp3"},
+        "zh": {"translatedPhrase": "再见", "pronunciation": "Zàijiàn", "ttsUrl": "https://example.com/tts/zaijian.mp3"},
+        "ru": {"translatedPhrase": "До свидания", "pronunciation": "Do svidaniya", "ttsUrl": "https://example.com/tts/do_svidaniya.mp3"},
+        "de": {"translatedPhrase": "Auf Wiedersehen", "pronunciation": "Auf vee-der-zayn", "ttsUrl": "https://example.com/tts/auf_wiedersehen.mp3"}
+      }
+    },
+    {
+      "phrase": "You're welcome",
+      "category": "Response to Gratitude",
+      "translations": {
+        "hi": {"translatedPhrase": "आपका स्वागत है", "pronunciation": "Aapka swagat hai", "ttsUrl": "https://example.com/tts/aapka_swagat_hai.mp3"},
+        "gu": {"translatedPhrase": "તમારું સ્વાગત છે", "pronunciation": "Tamaaru swaagat chhe", "ttsUrl": "https://example.com/tts/tamaaru_swaagat_chhe.mp3"},
+        "ja": {"translatedPhrase": "どういたしまして", "pronunciation": "Dōitashimashite", "ttsUrl": "https://example.com/tts/doitashimashite.mp3"},
+        "es": {"translatedPhrase": "De nada", "pronunciation": "De nah-dah", "ttsUrl": "https://example.com/tts/de_nada.mp3"},
+        "fr": {"translatedPhrase": "De rien", "pronunciation": "Duh ree-ahn", "ttsUrl": "https://example.com/tts/de_rien.mp3"},
+        "ko": {"translatedPhrase": "천만에요", "pronunciation": "Cheonmaneyo", "ttsUrl": "https://example.com/tts/cheonmaneyo.mp3"},
+        "zh": {"translatedPhrase": "不客气", "pronunciation": "Bú kèqì", "ttsUrl": "https://example.com/tts/bu_keqi.mp3"},
+        "ru": {"translatedPhrase": "Пожалуйста", "pronunciation": "Pozhaluysta", "ttsUrl": "https://example.com/tts/pozhaluysta.mp3"},
+        "de": {"translatedPhrase": "Gern geschehen", "pronunciation": "Gern geh-sheh-en", "ttsUrl": "https://example.com/tts/gern_geschehen.mp3"}
+      }
+    },
+    {
+      "phrase": "How are you?",
+      "category": "Greeting/Question",
+      "translations": {
+        "hi": {"translatedPhrase": "आप कैसे हैं?", "pronunciation": "Aap kaise hain?", "ttsUrl": "https://example.com/tts/aap_kaise_hain.mp3"},
+        "gu": {"translatedPhrase": "તમે કેમ છો?", "pronunciation": "Tame kem chho?", "ttsUrl": "https://example.com/tts/tame_kem_chho.mp3"},
+        "ja": {"translatedPhrase": "お元気ですか？", "pronunciation": "Ogenki desu ka?", "ttsUrl": "https://example.com/tts/ogenki_desu_ka.mp3"},
+        "es": {"translatedPhrase": "¿Cómo estás?", "pronunciation": "Ko-mo es-tas?", "ttsUrl": "https://example.com/tts/como_estas.mp3"},
+        "fr": {"translatedPhrase": "Comment ça va?", "pronunciation": "Koh-mohn sah vah?", "ttsUrl": "https://example.com/tts/comment_ca_va.mp3"},
+        "ko": {"translatedPhrase": "어떻게 지내세요?", "pronunciation": "Eotteoke jinaeseyo?", "ttsUrl": "https://example.com/tts/eotteoke_jinaeseyo.mp3"},
+        "zh": {"translatedPhrase": "你好吗？", "pronunciation": "Nǐ hǎo ma?", "ttsUrl": "https://example.com/tts/ni_hao_ma.mp3"},
+        "ru": {"translatedPhrase": "Как дела?", "pronunciation": "Kak dela?", "ttsUrl": "https://example.com/tts/kak_dela.mp3"},
+        "de": {"translatedPhrase": "Wie geht es Ihnen?", "pronunciation": "Vee gayt es ee-nen?", "ttsUrl": "https://example.com/tts/wie_geht_es_ihnen.mp3"}
+      }
+    },
+    {
+      "phrase": "I'm fine",
+      "category": "Response",
+      "translations": {
+        "hi": {"translatedPhrase": "मैं ठीक हूँ", "pronunciation": "Main theek hoon", "ttsUrl": "https://example.com/tts/main_theek_hoon.mp3"},
+        "gu": {"translatedPhrase": "હું ઠીક છું", "pronunciation": "Hun thik chhun", "ttsUrl": "https://example.com/tts/hun_thik_chhun.mp3"},
+        "ja": {"translatedPhrase": "元気です", "pronunciation": "Genki desu", "ttsUrl": "https://example.com/tts/genki_desu.mp3"},
+        "es": {"translatedPhrase": "Estoy bien", "pronunciation": "Es-toy bee-en", "ttsUrl": "https://example.com/tts/estoy_bien.mp3"},
+        "fr": {"translatedPhrase": "Ça va bien", "pronunciation": "Sah vah bee-ahn", "ttsUrl": "https://example.com/tts/ca_va_bien.mp3"},
+        "ko": {"translatedPhrase": "잘 지내요", "pronunciation": "Jal jinaeyo", "ttsUrl": "https://example.com/tts/jal_jinaeyo.mp3"},
+        "zh": {"translatedPhrase": "我很好", "pronunciation": "Wǒ hěn hǎo", "ttsUrl": "https://example.com/tts/wo_hen_hao.mp3"},
+        "ru": {"translatedPhrase": "У меня все хорошо", "pronunciation": "U menya vsyo khorosho", "ttsUrl": "https://example.com/tts/u_menya_vse_khorosho.mp3"},
+        "de": {"translatedPhrase": "Mir geht es gut", "pronunciation": "Meer gayt es goot", "ttsUrl": "https://example.com/tts/mir_geht_es_gut.mp3"}
+      }
+    },
+    {
+      "phrase": "What is your name?",
+      "category": "Question",
+      "translations": {
+        "hi": {"translatedPhrase": "आपका नाम क्या है?", "pronunciation": "Aapka naam kya hai?", "ttsUrl": "https://example.com/tts/aapka_naam_kya_hai.mp3"},
+        "gu": {"translatedPhrase": "તમારું નામ શું છે?", "pronunciation": "Tamaaru naam shun chhe?", "ttsUrl": "https://example.com/tts/tamaaru_naam_shun_chhe.mp3"},
+        "ja": {"translatedPhrase": "お名前は何ですか？", "pronunciation": "Onamae wa nan desu ka?", "ttsUrl": "https://example.com/tts/onamae_wa_nan_desu_ka.mp3"},
+        "es": {"translatedPhrase": "¿Cuál es tu nombre?", "pronunciation": "Kwal es too nohm-bre?", "ttsUrl": "https://example.com/tts/cual_es_tu_nombre.mp3"},
+        "fr": {"translatedPhrase": "Quel est votre nom?", "pronunciation": "Kel ay vo-truh nohn?", "ttsUrl": "https://example.com/tts/quel_est_votre_nom.mp3"},
+        "ko": {"translatedPhrase": "이름이 무엇입니까?", "pronunciation": "Ireumi mueosimnikka?", "ttsUrl": "https://example.com/tts/ireumi_mueosimnikka.mp3"},
+        "zh": {"translatedPhrase": "你叫什么名字？", "pronunciation": "Nǐ jiào shénme míngzì?", "ttsUrl": "https://example.com/tts/ni_jiao_shenme_mingzi.mp3"},
+        "ru": {"translatedPhrase": "Как вас зовут?", "pronunciation": "Kak vas zovut?", "ttsUrl": "https://example.com/tts/kak_vas_zovut.mp3"},
+        "de": {"translatedPhrase": "Wie heißen Sie?", "pronunciation": "Vee high-sen zee?", "ttsUrl": "https://example.com/tts/wie_heissen_sie.mp3"}
+      }
+    },
+    {
+      "phrase": "My name is...",
+      "category": "Response",
+      "translations": {
+        "hi": {"translatedPhrase": "मेरा नाम ... है", "pronunciation": "Mera naam ... hai", "ttsUrl": "https://example.com/tts/mera_naam_hai.mp3"},
+        "gu": {"translatedPhrase": "મારું નામ ... છે", "pronunciation": "Maaru naam ... chhe", "ttsUrl": "https://example.com/tts/maaru_naam_chhe.mp3"},
+        "ja": {"translatedPhrase": "私の名前は...です", "pronunciation": "Watashi no namae wa ... desu", "ttsUrl": "https://example.com/tts/watashi_no_namae_wa_desu.mp3"},
+        "es": {"translatedPhrase": "Mi nombre es...", "pronunciation": "Mee nohm-breh es...", "ttsUrl": "https://example.com/tts/mi_nombre_es.mp3"},
+        "fr": {"translatedPhrase": "Je m'appelle...", "pronunciation": "Zhuh mah-pel...", "ttsUrl": "https://example.com/tts/je_m_appelle.mp3"},
+        "ko": {"translatedPhrase": "제 이름은 ...입니다", "pronunciation": "Je ireumeun ...imnida", "ttsUrl": "https://example.com/tts/je_ireumeun_imnida.mp3"},
+        "zh": {"translatedPhrase": "我的名字是...", "pronunciation": "Wǒ de míngzì shì...", "ttsUrl": "https://example.com/tts/wo_de_mingzi_shi.mp3"},
+        "ru": {"translatedPhrase": "Меня зовут...", "pronunciation": "Menya zovut...", "ttsUrl": "https://example.com/tts/menya_zovut.mp3"},
+        "de": {"translatedPhrase": "Mein Name ist...", "pronunciation": "Mine nah-meh ist...", "ttsUrl": "https://example.com/tts/mein_name_ist.mp3"}
+      }
+    },
+    {
+      "phrase": "Where are you from?",
+      "category": "Question",
+      "translations": {
+        "hi": {"translatedPhrase": "आप कहाँ से हैं?", "pronunciation": "Aap kahaan se hain?", "ttsUrl": "https://example.com/tts/aap_kahaan_se_hain.mp3"},
+        "gu": {"translatedPhrase": "તમે ક્યાંથી છો?", "pronunciation": "Tame kyaanthi chho?", "ttsUrl": "https://example.com/tts/tame_kyaanthi_chho.mp3"},
+        "ja": {"translatedPhrase": "どちらからいらっしゃいましたか？", "pronunciation": "Dochira kara irasshaimashita ka?", "ttsUrl": "https://example.com/tts/dochira_kara_irasshaimashita_ka.mp3"},
+        "es": {"translatedPhrase": "¿De dónde eres?", "pronunciation": "De don-deh eh-res?", "ttsUrl": "https://example.com/tts/de_donde_eres.mp3"},
+        "fr": {"translatedPhrase": "D'où venez-vous?", "pronunciation": "Doo vuh-nay voo?", "ttsUrl": "https://example.com/tts/d_ou_venez_vous.mp3"},
+        "ko": {"translatedPhrase": "어디에서 오셨어요?", "pronunciation": "Eodieseo osyeosseoyo?", "ttsUrl": "https://example.com/tts/eodieseo_osyeosseoyo.mp3"},
+        "zh": {"translatedPhrase": "你是哪里人？", "pronunciation": "Nǐ shì nǎlǐ rén?", "ttsUrl": "https://example.com/tts/ni_shi_nali_ren.mp3"},
+        "ru": {"translatedPhrase": "Откуда вы?", "pronunciation": "Otkuda vy?", "ttsUrl": "https://example.com/tts/otkuda_vy.mp3"},
+        "de": {"translatedPhrase": "Woher kommen Sie?", "pronunciation": "Vo-hair koh-men zee?", "ttsUrl": "https://example.com/tts/woher_kommen_sie.mp3"}
+      }
+    },
+    {
+      "phrase": "I am from...",
+      "category": "Response",
+      "translations": {
+        "hi": {"translatedPhrase": "मैं ... से हूँ", "pronunciation": "Main ... se hoon", "ttsUrl": "https://example.com/tts/main_se_hoon.mp3"},
+        "gu": {"translatedPhrase": "હું ... થી છું", "pronunciation": "Hun ... thi chhun", "ttsUrl": "https://example.com/tts/hun_thi_chhun.mp3"},
+        "ja": {"translatedPhrase": "...から来ました", "pronunciation": "...kara kimashita", "ttsUrl": "https://example.com/tts/kara_kimashita.mp3"},
+        "es": {"translatedPhrase": "Soy de...", "pronunciation": "Soy deh...", "ttsUrl": "https://example.com/tts/soy_de.mp3"},
+        "fr": {"translatedPhrase": "Je viens de...", "pronunciation": "Zhuh vee-ahn duh...", "ttsUrl": "https://example.com/tts/je_viens_de.mp3"},
+        "ko": {"translatedPhrase": "...에서 왔어요", "pronunciation": "...eseo wasseoyo", "ttsUrl": "https://example.com/tts/eseo_wasseoyo.mp3"},
+        "zh": {"translatedPhrase": "我来自...", "pronunciation": "Wǒ láizì...", "ttsUrl": "https://example.com/tts/wo_laizi.mp3"},
+        "ru": {"translatedPhrase": "Я из...", "pronunciation": "Ya iz...", "ttsUrl": "https://example.com/tts/ya_iz.mp3"},
+        "de": {"translatedPhrase": "Ich komme aus...", "pronunciation": "Ish koh-meh aus...", "ttsUrl": "https://example.com/tts/ich_komme_aus.mp3"}
+      }
+    },
+    {
+      "phrase": "Please",
+      "category": "Politeness",
+      "translations": {
+        "hi": {"translatedPhrase": "कृपया", "pronunciation": "Kripya", "ttsUrl": "https://example.com/tts/kripya.mp3"},
+        "gu": {"translatedPhrase": "કૃપા કરીને", "pronunciation": "Krupa kareene", "ttsUrl": "https://example.com/tts/krupa_kareene.mp3"},
+        "ja": {"translatedPhrase": "お願いします", "pronunciation": "Onegaishimasu", "ttsUrl": "https://example.com/tts/onegaishimasu.mp3"},
+        "es": {"translatedPhrase": "Por favor", "pronunciation": "Por fa-vor", "ttsUrl": "https://example.com/tts/por_favor.mp3"},
+        "fr": {"translatedPhrase": "S'il vous plaît", "pronunciation": "Seel voo প্লে", "ttsUrl": "https://example.com/tts/s_il_vous_plait.mp3"},
+        "ko": {"translatedPhrase": "제발", "pronunciation": "Jebal", "ttsUrl": "https://example.com/tts/jebal.mp3"},
+        "zh": {"translatedPhrase": "请", "pronunciation": "Qǐng", "ttsUrl": "https://example.com/tts/qing.mp3"},
+        "ru": {"translatedPhrase": "Пожалуйста", "pronunciation": "Pozhaluysta", "ttsUrl": "https://example.com/tts/pozhaluysta_please.mp3"},
+        "de": {"translatedPhrase": "Bitte", "pronunciation": "Bi-teh", "ttsUrl": "https://example.com/tts/bitte.mp3"}
+      }
+    },
+    {
+      "phrase": "Sorry",
+      "category": "Apology",
+      "translations": {
+        "hi": {"translatedPhrase": "माफ़ कीजिए", "pronunciation": "Maaf keejiye", "ttsUrl": "https://example.com/tts/maaf_keejiye.mp3"},
+        "gu": {"translatedPhrase": "માફ કરશો", "pronunciation": "Maaf karsho", "ttsUrl": "https://example.com/tts/maaf_karsho_gu.mp3"},
+        "ja": {"translatedPhrase": "すみません", "pronunciation": "Sumimasen", "ttsUrl": "https://example.com/tts/sumimasen.mp3"},
+        "es": {"translatedPhrase": "Lo siento", "pronunciation": "Lo see-en-to", "ttsUrl": "https://example.com/tts/lo_siento_sorry.mp3"},
+        "fr": {"translatedPhrase": "Désolé(e)", "pronunciation": "Day-zoh-lay", "ttsUrl": "https://example.com/tts/desole.mp3"},
+        "ko": {"translatedPhrase": "미안합니다", "pronunciation": "Mianhamnida", "ttsUrl": "https://example.com/tts/mianhamnida.mp3"},
+        "zh": {"translatedPhrase": "对不起", "pronunciation": "Duìbùqǐ", "ttsUrl": "https://example.com/tts/duibuqi_sorry.mp3"},
+        "ru": {"translatedPhrase": "Извините", "pronunciation": "Izvinite", "ttsUrl": "https://example.com/tts/izvinite.mp3"},
+        "de": {"translatedPhrase": "Entschuldigung", "pronunciation": "Ent-shul-di-gung", "ttsUrl": "https://example.com/tts/entschuldigung.mp3"}
+      }
+    },
+    {
+      "phrase": "Yes",
+      "category": "Affirmation",
+      "translations": {
+        "hi": {"translatedPhrase": "हाँ", "pronunciation": "Haan", "ttsUrl": "https://example.com/tts/haan.mp3"},
+        "gu": {"translatedPhrase": "હા", "pronunciation": "Haa", "ttsUrl": "https://example.com/tts/haa.mp3"},
+        "ja": {"translatedPhrase": "はい", "pronunciation": "Hai", "ttsUrl": "https://example.com/tts/hai.mp3"},
+        "es": {"translatedPhrase": "Sí", "pronunciation": "See", "ttsUrl": "https://example.com/tts/si.mp3"},
+        "fr": {"translatedPhrase": "Oui", "pronunciation": "Wee", "ttsUrl": "https://example.com/tts/oui.mp3"},
+        "ko": {"translatedPhrase": "네", "pronunciation": "Ne", "ttsUrl": "https://example.com/tts/ne.mp3"},
+        "zh": {"translatedPhrase": "是", "pronunciation": "Shì", "ttsUrl": "https://example.com/tts/shi.mp3"},
+        "ru": {"translatedPhrase": "Да", "pronunciation": "Da", "ttsUrl": "https://example.com/tts/da.mp3"},
+        "de": {"translatedPhrase": "Ja", "pronunciation": "Ya", "ttsUrl": "https://example.com/tts/ja.mp3"}
+      }
+    },
+    {
+      "phrase": "No",
+      "category": "Negation",
+      "translations": {
+        "hi": {"translatedPhrase": "नहीं", "pronunciation": "Nahin", "ttsUrl": "https://example.com/tts/nahin.mp3"},
+        "gu": {"translatedPhrase": "ના", "pronunciation": "Naa", "ttsUrl": "https://example.com/tts/naa.mp3"},
+        "ja": {"translatedPhrase": "いいえ", "pronunciation": "Iie", "ttsUrl": "https://example.com/tts/iie.mp3"},
+        "es": {"translatedPhrase": "No", "pronunciation": "No", "ttsUrl": "https://example.com/tts/no.mp3"},
+        "fr": {"translatedPhrase": "Non", "pronunciation": "Nohn", "ttsUrl": "https://example.com/tts/non.mp3"},
+        "ko": {"translatedPhrase": "아니요", "pronunciation": "Aniyo", "ttsUrl": "https://example.com/tts/aniyo.mp3"},
+        "zh": {"translatedPhrase": "不", "pronunciation": "Bù", "ttsUrl": "https://example.com/tts/bu.mp3"},
+        "ru": {"translatedPhrase": "Нет", "pronunciation": "Nyet", "ttsUrl": "https://example.com/tts/nyet.mp3"},
+        "de": {"translatedPhrase": "Nein", "pronunciation": "Nine", "ttsUrl": "https://example.com/tts/nein.mp3"}
+      }
+    },
+    {
+      "phrase": "Okay",
+      "category": "Agreement",
+      "translations": {
+        "hi": {"translatedPhrase": "ठीक है", "pronunciation": "Theek hai", "ttsUrl": "https://example.com/tts/theek_hai.mp3"},
+        "gu": {"translatedPhrase": "ઓકે", "pronunciation": "Oke", "ttsUrl": "https://example.com/tts/oke_gu.mp3"},
+        "ja": {"translatedPhrase": "わかりました", "pronunciation": "Wakarimashita", "ttsUrl": "https://example.com/tts/wakarimashita.mp3"},
+        "es": {"translatedPhrase": "Está bien", "pronunciation": "Es-tah bee-en", "ttsUrl": "https://example.com/tts/esta_bien.mp3"},
+        "fr": {"translatedPhrase": "D'accord", "pronunciation": "Dah-kor", "ttsUrl": "https://example.com/tts/d_accord.mp3"},
+        "ko": {"translatedPhrase": "알겠습니다", "pronunciation": "Algesseumnida", "ttsUrl": "https://example.com/tts/algesseumnida.mp3"},
+        "zh": {"translatedPhrase": "好的", "pronunciation": "Hǎo de", "ttsUrl": "https://example.com/tts/hao_de.mp3"},
+        "ru": {"translatedPhrase": "Хорошо", "pronunciation": "Khorosho", "ttsUrl": "https://example.com/tts/khorosho.mp3"},
+        "de": {"translatedPhrase": "Okay", "pronunciation": "O-kay", "ttsUrl": "https://example.com/tts/okay.mp3"}
+      }
+    },
+    {
+      "phrase": "How much?",
+      "category": "Question",
+      "translations": {
+        "hi": {"translatedPhrase": "यह कितने का है?", "pronunciation": "Yah kitne ka hai?", "ttsUrl": "https://example.com/tts/yah_kitne_ka_hai.mp3"},
+        "gu": {"translatedPhrase": "આ કેટલાનું છે?", "pronunciation": "Aa ketlaanu chhe?", "ttsUrl": "https://example.com/tts/aa_ketlaanu_chhe.mp3"},
+        "ja": {"translatedPhrase": "いくらですか？", "pronunciation": "Ikura desu ka?", "ttsUrl": "https://example.com/tts/ikura_desu_ka.mp3"},
+        "es": {"translatedPhrase": "¿Cuánto cuesta?", "pronunciation": "Kwan-toh kwes-tah?", "ttsUrl": "https://example.com/tts/cuanto_cuesta.mp3"},
+        "fr": {"translatedPhrase": "Combien ça coûte?", "pronunciation": "Kohm-bee-ahn sah koot?", "ttsUrl": "https://example.com/tts/combien_ca_coute.mp3"},
+        "ko": {"translatedPhrase": "얼마예요?", "pronunciation": "Eolmayeyo?", "ttsUrl": "https://example.com/tts/eolmayeyo.mp3"},
+        "zh": {"translatedPhrase": "多少钱？", "pronunciation": "Duōshǎo qián?", "ttsUrl": "https://example.com/tts/duoshao_qian.mp3"},
+        "ru": {"translatedPhrase": "Сколько стоит?", "pronunciation": "Skol'ko stoit?", "ttsUrl": "https://example.com/tts/skolko_stoit.mp3"},
+        "de": {"translatedPhrase": "Wie viel kostet das?", "pronunciation": "Vee feel koh-stet das?", "ttsUrl": "https://example.com/tts/wie_viel_kostet_das.mp3"}
+      }
+    },
+    {
+      "phrase": "Where is the bathroom?",
+      "category": "Question",
+      "translations": {
+        "hi": {"translatedPhrase": "शौचालय कहाँ है?", "pronunciation": "Shauchalay kahaan hai?", "ttsUrl": "https://example.com/tts/shauchalay_kahaan_hai.mp3"},
+        "gu": {"translatedPhrase": "બાથરૂમ ક્યાં છે?", "pronunciation": "Baathroom kyaan chhe?", "ttsUrl": "https://example.com/tts/baathroom_kyaan_chhe.mp3"},
+        "ja": {"translatedPhrase": "トイレはどこですか？", "pronunciation": "Toire wa doko desu ka?", "ttsUrl": "https://example.com/tts/toire_wa_doko_desu_ka.mp3"},
+        "es": {"translatedPhrase": "¿Dónde está el baño?", "pronunciation": "Don-deh es-tah el bah-nyo?", "ttsUrl": "https://example.com/tts/donde_esta_el_bano.mp3"},
+        "fr": {"translatedPhrase": "Où sont les toilettes?", "pronunciation": "Oo sohn lay twah-let?", "ttsUrl": "https://example.com/tts/ou_sont_les_toilettes.mp3"},
+        "ko": {"translatedPhrase": "화장실은 어디에 있습니까?", "pronunciation": "Hwajangsireun eodie itseumnikka?", "ttsUrl": "https://example.com/tts/hwajangsireun_eodie_itseumnikka.mp3"},
+        "zh": {"translatedPhrase": "洗手间在哪里？", "pronunciation": "Xǐshǒujiān zài nǎlǐ?", "ttsUrl": "https://example.com/tts/xishoujian_zai_nali.mp3"},
+        "ru": {"translatedPhrase": "Где находится туалет?", "pronunciation": "Gde nahoditsya tualet?", "ttsUrl": "https://example.com/tts/gde_nahoditsya_tualet.mp3"},
+        "de": {"translatedPhrase": "Wo ist die Toilette?", "pronunciation": "Vo ist dee toh-ah-le-teh?", "ttsUrl": "https://example.com/tts/wo_ist_die_toilette.mp3"}
+      }
+    },
+    {
+      "phrase": "Good morning",
+      "category": "Greeting",
+      "translations": {
+        "hi": {"translatedPhrase": "शुभ प्रभात", "pronunciation": "Shubh Prabhat", "ttsUrl": "https://example.com/tts/shubh_prabhat.mp3"},
+        "gu": {"translatedPhrase": "શુભ સવાર", "pronunciation": "Shubh savaar", "ttsUrl": "https://example.com/tts/shubh_savaar.mp3"},
+        "ja": {"translatedPhrase": "おはようございます", "pronunciation": "Ohayō gozaimasu", "ttsUrl": "https://example.com/tts/ohayo_gozaimasu.mp3"},
+        "es": {"translatedPhrase": "Buenos días", "pronunciation": "Bweh-nos dee-as", "ttsUrl": "https://example.com/tts/buenos_dias.mp3"},
+        "fr": {"translatedPhrase": "Bonjour", "pronunciation": "Bohn-zhoor", "ttsUrl": "https://example.com/tts/bonjour_morning.mp3"},
+        "ko": {"translatedPhrase": "좋은 아침", "pronunciation": "Joeun achim", "ttsUrl": "https://example.com/tts/joeun_achim.mp3"},
+        "zh": {"translatedPhrase": "早上好", "pronunciation": "Zǎoshang hǎo", "ttsUrl": "https://example.com/tts/zaoshang_hao.mp3"},
+        "ru": {"translatedPhrase": "Доброе утро", "pronunciation": "Dobroye utro", "ttsUrl": "https://example.com/tts/dobroye_utro.mp3"},
+        "de": {"translatedPhrase": "Guten Morgen", "pronunciation": "Goo-ten mor-gen", "ttsUrl": "https://example.com/tts/guten_morgen.mp3"}
+      }
+    },
+    {
+      "phrase": "Good afternoon",
+      "category": "Greeting",
+      "translations": {
+        "hi": {"translatedPhrase": "शुभ दोपहर", "pronunciation": "Shubh Dophar", "ttsUrl": "https://example.com/tts/shubh_dophar.mp3"},
+        "gu": {"translatedPhrase": "શુભ બપોર", "pronunciation": "Shubh bapor", "ttsUrl": "https://example.com/tts/shubh_bapor.mp3"},
+        "ja": {"translatedPhrase": "こんにちは", "pronunciation": "Konnichiwa", "ttsUrl": "https://example.com/tts/konnichiwa_afternoon.mp3"},
+        "es": {"translatedPhrase": "Buenas tardes", "pronunciation": "Bweh-nas tar-des", "ttsUrl": "https://example.com/tts/buenas_tardes.mp3"},
+        "fr": {"translatedPhrase": "Bon après-midi", "pronunciation": "Bohn ah-preh-mee-dee", "ttsUrl": "https://example.com/tts/bon_apres_midi.mp3"},
+        "ko": {"translatedPhrase": "좋은 오후", "pronunciation": "Joeun ohu", "ttsUrl": "https://example.com/tts/joeun_ohu.mp3"},
+        "zh": {"translatedPhrase": "下午好", "pronunciation": "Xiàwǔ hǎo", "ttsUrl": "https://example.com/tts/xiawu_hao.mp3"},
+        "ru": {"translatedPhrase": "Добрый день", "pronunciation": "Dobryy den'", "ttsUrl": "https://example.com/tts/dobryy_den.mp3"},
+        "de": {"translatedPhrase": "Guten Tag", "pronunciation": "Goo-ten tahg", "ttsUrl": "https://example.com/tts/guten_tag.mp3"}
+      }
+    },
+    {
+      "phrase": "Good evening",
+      "category": "Greeting",
+      "translations": {
+        "hi": {"translatedPhrase": "शुभ संध्या", "pronunciation": "Shubh Sandhya", "ttsUrl": "https://example.com/tts/shubh_sandhya.mp3"},
+        "gu": {"translatedPhrase": "શુભ સાંજ", "pronunciation": "Shubh saanj", "ttsUrl": "https://example.com/tts/shubh_saanj.mp3"},
+        "ja": {"translatedPhrase": "こんばんは", "pronunciation": "Konbanwa", "ttsUrl": "https://example.com/tts/konbanwa.mp3"},
+        "es": {"translatedPhrase": "Buenas noches", "pronunciation": "Bweh-nas no-ches", "ttsUrl": "https://example.com/tts/buenas_noches_evening.mp3"},
+        "fr": {"translatedPhrase": "Bonsoir", "pronunciation": "Bohn-swahr", "ttsUrl": "https://example.com/tts/bonsoir.mp3"},
+        "ko": {"translatedPhrase": "좋은 저녁", "pronunciation": "Joeun jeonyeok", "ttsUrl": "https://example.com/tts/joeun_jeonyeok.mp3"},
+        "zh": {"translatedPhrase": "晚上好", "pronunciation": "Wǎnshàng hǎo", "ttsUrl": "https://example.com/tts/wanshang_hao.mp3"},
+        "ru": {"translatedPhrase": "Добрый вечер", "pronunciation": "Dobryy vecher", "ttsUrl": "https://example.com/tts/dobryy_vecher.mp3"},
+        "de": {"translatedPhrase": "Guten Abend", "pronunciation": "Goo-ten ah-bent", "ttsUrl": "https://example.com/tts/guten_abend.mp3"}
+      }
+    },
+    {
+      "phrase": "Good night",
+      "category": "Farewell",
+      "translations": {
+        "hi": {"translatedPhrase": "शुभ रात्रि", "pronunciation": "Shubh Ratri", "ttsUrl": "https://example.com/tts/shubh_ratri.mp3"},
+        "gu": {"translatedPhrase": "શુભ રાત્રિ", "pronunciation": "Shubh raatri", "ttsUrl": "https://example.com/tts/shubh_raatri.mp3"},
+        "ja": {"translatedPhrase": "おやすみなさい", "pronunciation": "Oyasuminasai", "ttsUrl": "https://example.com/tts/oyasuminasai.mp3"},
+        "es": {"translatedPhrase": "Buenas noches", "pronunciation": "Bweh-nas no-ches", "ttsUrl": "https://example.com/tts/buenas_noches_night.mp3"},
+        "fr": {"translatedPhrase": "Bonne nuit", "pronunciation": "Bohn nwee", "ttsUrl": "https://example.com/tts/bonne_nuit.mp3"},
+        "ko": {"translatedPhrase": "안녕히 주무세요", "pronunciation": "Annyeonghi jumuseyo", "ttsUrl": "https://example.com/tts/annyeonghi_jumuseyo.mp3"},
+        "zh": {"translatedPhrase": "晚安", "pronunciation": "Wǎn'ān", "ttsUrl": "https://example.com/tts/wan_an.mp3"},
+        "ru": {"translatedPhrase": "Спокойной ночи", "pronunciation": "Spokoynoy nochi", "ttsUrl": "https://example.com/tts/spokoynoy_nochi.mp3"},
+        "de": {"translatedPhrase": "Gute Nacht", "pronunciation": "Goo-teh naht", "ttsUrl": "https://example.com/tts/gute_nacht.mp3"}
+      }
+    },
+    {
+      "phrase": "Have a nice day",
+      "category": "Well-wishing",
+      "translations": {
+        "hi": {"translatedPhrase": "आपका दिन शुभ हो", "pronunciation": "Aapka din shubh ho", "ttsUrl": "https://example.com/tts/aapka_din_shubh_ho.mp3"},
+        "gu": {"translatedPhrase": "તમારો દિવસ શુભ રહે", "pronunciation": "Tamaaro divas shubh rahe", "ttsUrl": "https://example.com/tts/tamaaro_divas_shubh_rahe.mp3"},
+        "ja": {"translatedPhrase": "良い一日を", "pronunciation": "Yoi ichinichi o", "ttsUrl": "https://example.com/tts/yoi_ichinichi_o.mp3"},
+        "es": {"translatedPhrase": "Que tengas un buen día", "pronunciation": "Keh ten-gas oon bwehn dee-ah", "ttsUrl": "https://example.com/tts/que_tengas_un_buen_dia.mp3"},
+        "fr": {"translatedPhrase": "Passez une bonne journée", "pronunciation": "Pah-say oon bohn zhoor-nay", "ttsUrl": "https://example.com/tts/passez_une_bonne_journee.mp3"},
+        "ko": {"translatedPhrase": "좋은 하루 보내세요", "pronunciation": "Joeun haru bonaeseyo", "ttsUrl": "https://example.com/tts/joeun_haru_bonaeseyo.mp3"},
+        "zh": {"translatedPhrase": "祝你一天愉快", "pronunciation": "Zhù nǐ yī tiān yúkuài", "ttsUrl": "https://example.com/tts/zhu_ni_yi_tian_yukuai.mp3"},
+        "ru": {"translatedPhrase": "Хорошего дня", "pronunciation": "Khoroshego dnya", "ttsUrl": "https://example.com/tts/khoroshego_dnya.mp3"},
+        "de": {"translatedPhrase": "Schönen Tag noch", "pronunciation": "Sheu-nen tahg nokh", "ttsUrl": "https://example.com/tts/schonen_tag_noch.mp3"}
+      }
+    },
+    {
+      "phrase": "See you later",
+      "category": "Farewell",
+      "translations": {
+        "hi": {"translatedPhrase": "फिर मिलेंगे", "pronunciation": "Phir milenge", "ttsUrl": "https://example.com/tts/phir_milenge.mp3"},
+        "gu": {"translatedPhrase": "પછી મળીશું", "pronunciation": "Pachhi malishu", "ttsUrl": "https://example.com/tts/pachhi_malishu.mp3"},
+        "ja": {"translatedPhrase": "また後で", "pronunciation": "Mata atode", "ttsUrl": "https://example.com/tts/mata_atode.mp3"},
+        "es": {"translatedPhrase": "Hasta luego", "pronunciation": "Ah-stah lweh-go", "ttsUrl": "https://example.com/tts/hasta_luego.mp3"},
+        "fr": {"translatedPhrase": "À plus tard", "pronunciation": "Ah pluh tahr", "ttsUrl": "https://example.com/tts/a_plus_tard.mp3"},
+        "ko": {"translatedPhrase": "나중에 봐요", "pronunciation": "Najunge bwayo", "ttsUrl": "https://example.com/tts/najunge_bwayo.mp3"},
+        "zh": {"translatedPhrase": "一会儿见", "pronunciation": "Yīhuǐr jiàn", "ttsUrl": "https://example.com/tts/yihuir_jian.mp3"},
+        "ru": {"translatedPhrase": "Увидимся позже", "pronunciation": "Uvidimsya pozzhe", "ttsUrl": "https://example.com/tts/uvidimsya_pozzhe.mp3"},
+        "de": {"translatedPhrase": "Bis später", "pronunciation": "Bis shpay-ter", "ttsUrl": "https://example.com/tts/bis_spater.mp3"}
+      }
+    },
+    {
+      "phrase": "I don't understand",
+      "category": "Communication",
+      "translations": {
+        "hi": {"translatedPhrase": "मुझे समझ नहीं आया", "pronunciation": "Mujhe samajh nahin aaya", "ttsUrl": "https://example.com/tts/mujhe_samajh_nahin_aaya.mp3"},
+        "gu": {"translatedPhrase": "મને સમજાયું નથી", "pronunciation": "Mane samjaayu nathi", "ttsUrl": "https://example.com/tts/mane_samjaayu_nathi.mp3"},
+        "ja": {"translatedPhrase": "わかりません", "pronunciation": "Wakarimasen", "ttsUrl": "https://example.com/tts/wakarimasen_understand.mp3"},
+        "es": {"translatedPhrase": "No entiendo", "pronunciation": "No en-tee-en-do", "ttsUrl": "https://example.com/tts/no_entiendo.mp3"},
+        "fr": {"translatedPhrase": "Je ne comprends pas", "pronunciation": "Zhuh nuh kohm-prahn pah", "ttsUrl": "https://example.com/tts/je_ne_comprends_pas.mp3"},
+        "ko": {"translatedPhrase": "이해가 안 돼요", "pronunciation": "Ihaega an dwaeyo", "ttsUrl": "https://example.com/tts/ihaega_an_dwaeyo.mp3"},
+        "zh": {"translatedPhrase": "我不明白", "pronunciation": "Wǒ bù míngbái", "ttsUrl": "https://example.com/tts/wo_bu_mingbai.mp3"},
+        "ru": {"translatedPhrase": "Я не понимаю", "pronunciation": "Ya ne ponimayu", "ttsUrl": "https://example.com/tts/ya_ne_ponimayu.mp3"},
+        "de": {"translatedPhrase": "Ich verstehe nicht", "pronunciation": "Ish fair-shtay-eh nisht", "ttsUrl": "https://example.com/tts/ich_verstehe_nicht.mp3"}
+      }
+    },
+    {
+      "phrase": "Can you help me?",
+      "category": "Request",
+      "translations": {
+        "hi": {"translatedPhrase": "क्या आप मेरी मदद कर सकते हैं?", "pronunciation": "Kya aap meri madad kar sakte hain?", "ttsUrl": "https://example.com/tts/kya_aap_meri_madad_kar_sakte_hain.mp3"},
+        "gu": {"translatedPhrase": "શું તમે મને મદદ કરી શકો છો?", "pronunciation": "Shun tame mane madad karee shako chho?", "ttsUrl": "https://example.com/tts/shun_tame_mane_madad_karee_shako_chho.mp3"},
+        "ja": {"translatedPhrase": "手伝ってくれますか？", "pronunciation": "Tetsudatte kuremasu ka?", "ttsUrl": "https://example.com/tts/tetsudatte_kuremasu_ka.mp3"},
+        "es": {"translatedPhrase": "¿Puede ayudarme?", "pronunciation": "Pweh-deh ah-yoo-dar-meh?", "ttsUrl": "https://example.com/tts/puede_ayudarme.mp3"},
+        "fr": {"translatedPhrase": "Pouvez-vous m'aider?", "pronunciation": "Poo-vay voo may-day?", "ttsUrl": "https://example.com/tts/pouvez_vous_m_aider.mp3"},
+        "ko": {"translatedPhrase": "저를 도와주시겠어요?", "pronunciation": "Jeoreul dowajusigesseoyo?", "ttsUrl": "https://example.com/tts/jeoreul_dowajusigesseoyo.mp3"},
+        "zh": {"translatedPhrase": "你能帮我吗？", "pronunciation": "Nǐ néng bāng wǒ ma?", "ttsUrl": "https://example.com/tts/ni_neng_bang_wo_ma.mp3"},
+        "ru": {"translatedPhrase": "Вы можете мне помочь?", "pronunciation": "Vy mozhete mne pomoch'?", "ttsUrl": "https://example.com/tts/vy_mozhete_mne_pomoch.mp3"},
+        "de": {"translatedPhrase": "Können Sie mir helfen?", "pronunciation": "Keu-nen zee meer hel-fen?", "ttsUrl": "https://example.com/tts/konnen_sie_mir_helfen.mp3"}
+      }
+    },
+    {
+      "phrase": "I need help",
+      "category": "Request",
+      "translations": {
+        "hi": {"translatedPhrase": "मुझे मदद चाहिए", "pronunciation": "Mujhe madad chaahiye", "ttsUrl": "https://example.com/tts/mujhe_madad_chaahiye.mp3"},
+        "gu": {"translatedPhrase": "મારે મદદની જરૂર છે", "pronunciation": "Maare madadnee jaroor chhe", "ttsUrl": "https://example.com/tts/maare_madadnee_jaroor_chhe.mp3"},
+        "ja": {"translatedPhrase": "助けが必要です", "pronunciation": "Tasuke ga hitsuyō desu", "ttsUrl": "https://example.com/tts/tasuke_ga_hitsuyo_desu.mp3"},
+        "es": {"translatedPhrase": "Necesito ayuda", "pronunciation": "Neh-theh-see-toh ah-yoo-dah", "ttsUrl": "https://example.com/tts/necesito_ayuda.mp3"},
+        "fr": {"translatedPhrase": "J'ai besoin d'aide", "pronunciation": "Zhay buh-zwan ded", "ttsUrl": "https://example.com/tts/j_ai_besoin_d_aide.mp3"},
+        "ko": {"translatedPhrase": "도와주세요", "pronunciation": "Dowajuseyo", "ttsUrl": "https://example.com/tts/dowajuseyo.mp3"},
+        "zh": {"translatedPhrase": "我需要帮助", "pronunciation": "Wǒ xūyào bāngzhù", "ttsUrl": "https://example.com/tts/wo_xuyao_bangzhu.mp3"},
+        "ru": {"translatedPhrase": "Мне нужна помощь", "pronunciation": "Mne nuzhna pomoshch'", "ttsUrl": "https://example.com/tts/mne_nuzhna_pomoshch.mp3"},
+        "de": {"translatedPhrase": "Ich brauche Hilfe", "pronunciation": "Ish brow-kheh hil-feh", "ttsUrl": "https://example.com/tts/ich_brauche_hilfe.mp3"}
+      }
+    },
+    {
+      "phrase": "Where is...?",
+      "category": "Question",
+      "translations": {
+        "hi": {"translatedPhrase": "...कहाँ है?", "pronunciation": "...kahaan hai?", "ttsUrl": "https://example.com/tts/kahaan_hai.mp3"},
+        "gu": {"translatedPhrase": "...ક્યાં છે?", "pronunciation": "...kyaan chhe?", "ttsUrl": "https://example.com/tts/kyaan_chhe.mp3"},
+        "ja": {"translatedPhrase": "...はどこですか？", "pronunciation": "...wa doko desu ka?", "ttsUrl": "https://example.com/tts/wa_doko_desu_ka.mp3"},
+        "es": {"translatedPhrase": "¿Dónde está...?", "pronunciation": "Don-deh es-tah...?", "ttsUrl": "https://example.com/tts/donde_esta.mp3"},
+        "fr": {"translatedPhrase": "Où est...?", "pronunciation": "Oo ay...?", "ttsUrl": "https://example.com/tts/ou_est.mp3"},
+        "ko": {"translatedPhrase": "...은/는 어디에 있습니까?", "pronunciation": "...eun/neun eodie itseumnikka?", "ttsUrl": "https://example.com/tts/eun_neun_eodie_itseumnikka.mp3"},
+        "zh": {"translatedPhrase": "...在哪里？", "pronunciation": "...zài nǎlǐ?", "ttsUrl": "https://example.com/tts/zai_nali.mp3"},
+        "ru": {"translatedPhrase": "Где находится...?", "pronunciation": "Gde nahoditsya...?", "ttsUrl": "https://example.com/tts/gde_nahoditsya.mp3"},
+        "de": {"translatedPhrase": "Wo ist...?", "pronunciation": "Vo ist...?", "ttsUrl": "https://example.com/tts/wo_ist.mp3"}
+      }
+    },
+    {
+      "phrase": "What time is it?",
+      "category": "Question",
+      "translations": {
+        "hi": {"translatedPhrase": "कितना बजा है?", "pronunciation": "Kitna baja hai?", "ttsUrl": "https://example.com/tts/kitna_baja_hai.mp3"},
+        "gu": {"translatedPhrase": "કેટલા વાગ્યા છે?", "pronunciation": "Ketla vaagya chhe?", "ttsUrl": "https://example.com/tts/ketla_vaagya_chhe.mp3"},
+        "ja": {"translatedPhrase": "今何時ですか？", "pronunciation": "Ima nanji desu ka?", "ttsUrl": "https://example.com/tts/ima_nanji_desu_ka.mp3"},
+        "es": {"translatedPhrase": "¿Qué hora es?", "pronunciation": "Keh o-rah es?", "ttsUrl": "https://example.com/tts/que_hora_es.mp3"},
+        "fr": {"translatedPhrase": "Quelle heure est-il?", "pronunciation": "Kel ur ay-teel?", "ttsUrl": "https://example.com/tts/quelle_heure_est_il.mp3"},
+        "ko": {"translatedPhrase": "지금 몇 시예요?", "pronunciation": "Jigeum myeot si yeyo?", "ttsUrl": "https://example.com/tts/jigeum_myeot_si_yeyo.mp3"},
+        "zh": {"translatedPhrase": "现在几点？", "pronunciation": "Xiànzài jǐ diǎn?", "ttsUrl": "https://example.com/tts/xianzai_ji_dian.mp3"},
+        "ru": {"translatedPhrase": "Который час?", "pronunciation": "Kotoryy chas?", "ttsUrl": "https://example.com/tts/kotoryy_chas.mp3"},
+        "de": {"translatedPhrase": "Wie viel Uhr ist es?", "pronunciation": "Vee feel oor ist es?", "ttsUrl": "https://example.com/tts/wie_viel_uhr_ist_es.mp3"}
+      }
+    },
+    {
+      "phrase": "I like it",
+      "category": "Preference",
+      "translations": {
+        "hi": {"translatedPhrase": "मुझे यह पसंद है", "pronunciation": "Mujhe yah pasand hai", "ttsUrl": "https://example.com/tts/mujhe_yah_pasand_hai.mp3"},
+        "gu": {"translatedPhrase": "મને આ ગમે છે", "pronunciation": "Mane aa game chhe", "ttsUrl": "https://example.com/tts/mane_aa_game_chhe.mp3"},
+        "ja": {"translatedPhrase": "好きです", "pronunciation": "Suki desu", "ttsUrl": "https://example.com/tts/suki_desu.mp3"},
+        "es": {"translatedPhrase": "Me gusta", "pronunciation": "Meh goos-tah", "ttsUrl": "https://example.com/tts/me_gusta.mp3"},
+        "fr": {"translatedPhrase": "J'aime ça", "pronunciation": "Zhem sah", "ttsUrl": "https://example.com/tts/j_aime_ca.mp3"},
+        "ko": {"translatedPhrase": "좋아요", "pronunciation": "Joayo", "ttsUrl": "https://example.com/tts/joayo.mp3"},
+        "zh": {"translatedPhrase": "我喜欢", "pronunciation": "Wǒ xǐhuān", "ttsUrl": "https://example.com/tts/wo_xihuan.mp3"},
+        "ru": {"translatedPhrase": "Мне это нравится", "pronunciation": "Mne eto nravitsya", "ttsUrl": "https://example.com/tts/mne_eto_nravitsya.mp3"},
+        "de": {"translatedPhrase": "Ich mag das", "pronunciation": "Ish mahg das", "ttsUrl": "https://example.com/tts/ich_mag_das.mp3"}
+      }
+    },
+    {
+      "phrase": "I don't like it",
+      "category": "Preference",
+      "translations": {
+        "hi": {"translatedPhrase": "मुझे यह पसंद नहीं है", "pronunciation": "Mujhe yah pasand nahin hai", "ttsUrl": "https://example.com/tts/mujhe_yah_pasand_nahin_hai.mp3"},
+        "gu": {"translatedPhrase": "મને આ નથી ગમતું", "pronunciation": "Mane aa nathi gamtun", "ttsUrl": "https://example.com/tts/mane_aa_nathi_gamtun.mp3"},
+        "ja": {"translatedPhrase": "好きではありません", "pronunciation": "Suki dewa arimasen", "ttsUrl": "https://example.com/tts/suki_dewa_arimasen.mp3"},
+        "es": {"translatedPhrase": "No me gusta", "pronunciation": "No meh goos-tah", "ttsUrl": "https://example.com/tts/no_me_gusta.mp3"},
+        "fr": {"translatedPhrase": "Je n'aime pas ça", "pronunciation": "Zhuh nem pah sah", "ttsUrl": "https://example.com/tts/je_n_aime_pas_ca.mp3"},
+        "ko": {"translatedPhrase": "싫어요", "pronunciation": "Sireoyo", "ttsUrl": "https://example.com/tts/sireoyo.mp3"},
+        "zh": {"translatedPhrase": "我不喜欢", "pronunciation": "Wǒ bù xǐhuān", "ttsUrl": "https://example.com/tts/wo_bu_xihuan.mp3"},
+        "ru": {"translatedPhrase": "Мне это не нравится", "pronunciation": "Mne eto ne nravitsya", "ttsUrl": "https://example.com/tts/mne_eto_ne_nravitsya.mp3"},
+        "de": {"translatedPhrase": "Ich mag das nicht", "pronunciation": "Ish mahg das nisht", "ttsUrl": "https://example.com/tts/ich_mag_das_nicht.mp3"}
+      }
+    },
+    {
+      "phrase": "It's delicious",
+      "category": "Compliment",
+      "translations": {
+        "hi": {"translatedPhrase": "यह स्वादिष्ट है", "pronunciation": "Yah svaadisht hai", "ttsUrl": "https://example.com/tts/yah_svaadisht_hai.mp3"},
+        "gu": {"translatedPhrase": "તે સ્વાદિષ્ટ છે", "pronunciation": "Te svaadisht chhe", "ttsUrl": "https://example.com/tts/te_svaadisht_chhe.mp3"},
+        "ja": {"translatedPhrase": "おいしいです", "pronunciation": "Oishii desu", "ttsUrl": "https://example.com/tts/oishii_desu.mp3"},
+        "es": {"translatedPhrase": "Está delicioso", "pronunciation": "Es-tah deh-lee-thee-o-so", "ttsUrl": "https://example.com/tts/esta_delicioso.mp3"},
+        "fr": {"translatedPhrase": "C'est délicieux", "pronunciation": "Say day-lee-syuh", "ttsUrl": "https://example.com/tts/c_est_delicieux.mp3"},
+        "ko": {"translatedPhrase": "맛있어요", "pronunciation": "Masisseoyo", "ttsUrl": "https://example.com/tts/masisseoyo.mp3"},
+        "zh": {"translatedPhrase": "真好吃", "pronunciation": "Zhēn hǎochī", "ttsUrl": "https://example.com/tts/zhen_haochi.mp3"},
+        "ru": {"translatedPhrase": "Это очень вкусно", "pronunciation": "Eto ochen' vkusno", "ttsUrl": "https://example.com/tts/eto_ochen_vkusno.mp3"},
+        "de": {"translatedPhrase": "Das ist lecker", "pronunciation": "Das ist leh-ker", "ttsUrl": "https://example.com/tts/das_ist_lecker.mp3"}
+      }
+    },
+    {
+      "phrase": "It's bad",
+      "category": "Complaint",
+      "translations": {
+        "hi": {"translatedPhrase": "यह बुरा है", "pronunciation": "Yah bura hai", "ttsUrl": "https://example.com/tts/yah_bura_hai.mp3"},
+        "gu": {"translatedPhrase": "તે ખરાબ છે", "pronunciation": "Te kharaab chhe", "ttsUrl": "https://example.com/tts/te_kharaab_chhe.mp3"},
+        "ja": {"translatedPhrase": "悪いです", "pronunciation": "Warui desu", "ttsUrl": "https://example.com/tts/warui_desu.mp3"},
+        "es": {"translatedPhrase": "Está mal", "pronunciation": "Es-tah mal", "ttsUrl": "https://example.com/tts/esta_mal.mp3"},
+        "fr": {"translatedPhrase": "C'est mauvais", "pronunciation": "Say moh-vay", "ttsUrl": "https://example.com/tts/c_est_mauvais.mp3"},
+        "ko": {"translatedPhrase": "나빠요", "pronunciation": "Nappayo", "ttsUrl": "https://example.com/tts/nappayo.mp3"},
+        "zh": {"translatedPhrase": "真糟糕", "pronunciation": "Zhēn zāogāo", "ttsUrl": "https://example.com/tts/zhen_zaogao.mp3"},
+        "ru": {"translatedPhrase": "Это плохо", "pronunciation": "Eto plokho", "ttsUrl": "https://example.com/tts/eto_plokho.mp3"},
+        "de": {"translatedPhrase": "Das ist schlecht", "pronunciation": "Das ist shlecht", "ttsUrl": "https://example.com/tts/das_ist_schlecht.mp3"}
+      }
+    },
+    {
+      "phrase": "Excuse me",
+      "category": "Politeness",
+      "translations": {
+        "hi": {"translatedPhrase": "माफ़ कीजिए", "pronunciation": "Maaf keejiye", "ttsUrl": "https://example.com/tts/maaf_keejiye_excuse.mp3"},
+        "gu": {"translatedPhrase": "માફ કરશો", "pronunciation": "Maaf karsho", "ttsUrl": "https://example.com/tts/maaf_karsho_excuse.mp3"},
+        "ja": {"translatedPhrase": "すみません", "pronunciation": "Sumimasen", "ttsUrl": "https://example.com/tts/sumimasen_excuse.mp3"},
+        "es": {"translatedPhrase": "Disculpe", "pronunciation": "Dees-kool-peh", "ttsUrl": "https://example.com/tts/disculpe.mp3"},
+        "fr": {"translatedPhrase": "Excusez-moi", "pronunciation": "Ex-kyoo-zay mwah", "ttsUrl": "https://example.com/tts/excusez_moi.mp3"},
+        "ko": {"translatedPhrase": "실례합니다", "pronunciation": "Sillyehamnida", "ttsUrl": "https://example.com/tts/sillyehamnida.mp3"},
+        "zh": {"translatedPhrase": "打扰一下", "pronunciation": "Dǎrǎo yīxià", "ttsUrl": "https://example.com/tts/darao_yixia.mp3"},
+        "ru": {"translatedPhrase": "Извините", "pronunciation": "Izvinite", "ttsUrl": "https://example.com/tts/izvinite_excuse.mp3"},
+        "de": {"translatedPhrase": "Entschuldigen Sie", "pronunciation": "Ent-shul-di-gen zee", "ttsUrl": "https://example.com/tts/entschuldigen_sie.mp3"}
+      }
+    },
+    {
+      "phrase": "Cheers!",
+      "category": "Toast",
+      "translations": {
+        "hi": {"translatedPhrase": "चियर्स!", "pronunciation": "Cheers!", "ttsUrl": "https://example.com/tts/cheers_hi.mp3"},
+        "gu": {"translatedPhrase": "ચિયર્સ!", "pronunciation": "Cheers!", "ttsUrl": "https://example.com/tts/cheers_gu.mp3"},
+        "ja": {"translatedPhrase": "乾杯！", "pronunciation": "Kanpai!", "ttsUrl": "https://example.com/tts/kanpai.mp3"},
+        "es": {"translatedPhrase": "¡Salud!", "pronunciation": "Sah-lood!", "ttsUrl": "https://example.com/tts/salud.mp3"},
+        "fr": {"translatedPhrase": "Santé!", "pronunciation": "Sahn-tay!", "ttsUrl": "https://example.com/tts/sante.mp3"},
+        "ko": {"translatedPhrase": "건배!", "pronunciation": "Geonbae!", "ttsUrl": "https://example.com/tts/geonbae.mp3"},
+        "zh": {"translatedPhrase": "干杯！", "pronunciation": "Gānbēi!", "ttsUrl": "https://example.com/tts/ganbei.mp3"},
+        "ru": {"translatedPhrase": "За здоровье!", "pronunciation": "Za zdorov'ye!", "ttsUrl": "https://example.com/tts/za_zdorovye.mp3"},
+        "de": {"translatedPhrase": "Prost!", "pronunciation": "Prohst!", "ttsUrl": "https://example.com/tts/prost.mp3"}
+      }
+    },
+    {
+      "phrase": "Happy birthday!",
+      "category": "Celebration",
+      "translations": {
+        "hi": {"translatedPhrase": "जन्मदिन मुबारक!", "pronunciation": "Janmadin mubaarak!", "ttsUrl": "https://example.com/tts/janmadin_mubaarak.mp3"},
+        "gu": {"translatedPhrase": "જન્મદિવસની શુભકામના!", "pronunciation": "Janmadivasnee shubhakaamana!", "ttsUrl": "https://example.com/tts/janmadivasnee_shubhakaamana.mp3"},
+        "ja": {"translatedPhrase": "お誕生日おめでとうございます！", "pronunciation": "O-tanjōbi omedetō gozaimasu!", "ttsUrl": "https://example.com/tts/otanjobi_omedeto_gozaimasu.mp3"},
+        "es": {"translatedPhrase": "¡Feliz cumpleaños!", "pronunciation": "Feh-leeth koom-pleh-ah-nyos!", "ttsUrl": "https://example.com/tts/feliz_cumpleanos.mp3"},
+        "fr": {"translatedPhrase": "Joyeux anniversaire!", "pronunciation": "Zhwa-yuh ah-nee-vehr-sehr!", "ttsUrl": "https://example.com/tts/joyeux_anniversaire.mp3"},
+        "ko": {"translatedPhrase": "생일 축하합니다!", "pronunciation": "Saengil chukhahamnida!", "ttsUrl": "https://example.com/tts/saengil_chukhahamnida.mp3"},
+        "zh": {"translatedPhrase": "生日快乐！", "pronunciation": "Shēngrì kuàilè!", "ttsUrl": "https://example.com/tts/shengri_kuaile.mp3"},
+        "ru": {"translatedPhrase": "С днем рождения!", "pronunciation": "S dnem rozhdeniya!", "ttsUrl": "https://example.com/tts/s_dnem_rozhdeniya.mp3"},
+        "de": {"translatedPhrase": "Herzlichen Glückwunsch zum Geburtstag!", "pronunciation": "Herts-li-khen glyook-voonsh tsoom geh-boorts-tahg!", "ttsUrl": "https://example.com/tts/herzlichen_gluckwunsch_zum_geburtstag.mp3"}
+      }
+    },
+    {
+      "phrase": "Merry Christmas!",
+      "category": "Holiday Greeting",
+      "translations": {
+        "hi": {"translatedPhrase": "मेरी क्रिसमस!", "pronunciation": "Meri Christmas!", "ttsUrl": "https://example.com/tts/meri_christmas.mp3"},
+        "gu": {"translatedPhrase": "મેરી ક્રિસમસ!", "pronunciation": "Meri Christmas!", "ttsUrl": "https://example.com/tts/meri_christmas_gu.mp3"},
+        "ja": {"translatedPhrase": "メリークリスマス！", "pronunciation": "Merīkurisumasu!", "ttsUrl": "https://example.com/tts/merikurisumasu.mp3"},
+        "es": {"translatedPhrase": "¡Feliz Navidad!", "pronunciation": "Feh-leeth nah-vee-dahd!", "ttsUrl": "https://example.com/tts/feliz_navidad.mp3"},
+        "fr": {"translatedPhrase": "Joyeux Noël!", "pronunciation": "Zhwa-yuh noh-el!", "ttsUrl": "https://example.com/tts/joyeux_noel.mp3"},
+        "ko": {"translatedPhrase": "메리 크리스마스!", "pronunciation": "Meri keuriseumaseu!", "ttsUrl": "https://example.com/tts/meri_keuriseumaseu.mp3"},
+        "zh": {"translatedPhrase": "圣诞快乐！", "pronunciation": "Shèngdàn kuàilè!", "ttsUrl": "https://example.com/tts/shengdan_kuaile.mp3"},
+        "ru": {"translatedPhrase": "С Рождеством!", "pronunciation": "S Rozhdestvom!", "ttsUrl": "https://example.com/tts/s_rozhdestvom.mp3"},
+        "de": {"translatedPhrase": "Frohe Weihnachten!", "pronunciation": "Froh-eh vy-nahkh-ten!", "ttsUrl": "https://example.com/tts/frohe_weihnachten.mp3"}
+      }
+    },
+    {
+      "phrase": "Happy New Year!",
+      "category": "Holiday Greeting",
+      "translations": {
+        "hi": {"translatedPhrase": "नया साल मुबारक हो!", "pronunciation": "Naya saal mubaarak ho!", "ttsUrl": "https://example.com/tts/naya_saal_mubaarak_ho.mp3"},
+        "gu": {"translatedPhrase": "નવા વર્ષની શુભકામના!", "pronunciation": "Navaa varshnee shubhakaamana!", "ttsUrl": "https://example.com/tts/navaa_varshnee_shubhakaamana.mp3"},
+        "ja": {"translatedPhrase": "明けましておめでとうございます！", "pronunciation": "Akemashite omedetō gozaimasu!", "ttsUrl": "https://example.com/tts/akemashite_omedeto_gozaimasu.mp3"},
+        "es": {"translatedPhrase": "¡Feliz Año Nuevo!", "pronunciation": "Feh-leeth ah-nyo nweh-boh!", "ttsUrl": "https://example.com/tts/feliz_ano_nuevo.mp3"},
+        "fr": {"translatedPhrase": "Bonne année!", "pronunciation": "Bohn ah-nay!", "ttsUrl": "https://example.com/tts/bonne_annee.mp3"},
+        "ko": {"translatedPhrase": "새해 복 많이 받으세요!", "pronunciation": "Saehae bok mani badeuseyo!", "ttsUrl": "https://example.com/tts/saehae_bok_mani_badeuseyo.mp3"},
+        "zh": {"translatedPhrase": "新年快乐！", "pronunciation": "Xīnnián kuàilè!", "ttsUrl": "https://example.com/tts/xinnian_kuaile.mp3"},
+        "ru": {"translatedPhrase": "С Новым годом!", "pronunciation": "S Novym godom!", "ttsUrl": "https://example.com/tts/s_novym_godom.mp3"},
+        "de": {"translatedPhrase": "Frohes Neues Jahr!", "pronunciation": "Froh-es noy-es yaar!", "ttsUrl": "https://example.com/tts/frohes_neues_jahr.mp3"}
+      }
+    },
+    {
+      "phrase": "Congratulations!",
+      "category": "Celebration",
+      "translations": {
+        "hi": {"translatedPhrase": "बधाई हो!", "pronunciation": "Badhaai ho!", "ttsUrl": "https://example.com/tts/badhaai_ho.mp3"},
+        "gu": {"translatedPhrase": "અભિનંદન!", "pronunciation": "Abhinandan!", "ttsUrl": "https://example.com/tts/abhinandan_gu.mp3"},
+        "ja": {"translatedPhrase": "おめでとうございます！", "pronunciation": "Omedetō gozaimasu!", "ttsUrl": "https://example.com/tts/omedeto_gozaimasu.mp3"},
+        "es": {"translatedPhrase": "¡Felicidades!", "pronunciation": "Feh-lee-thee-dah-des!", "ttsUrl": "https://example.com/tts/felicidades.mp3"},
+        "fr": {"translatedPhrase": "Félicitations!", "pronunciation": "Fay-lee-see-tah-syohn!", "ttsUrl": "https://example.com/tts/felicitations.mp3"},
+        "ko": {"translatedPhrase": "축하합니다!", "pronunciation": "Chukhahamnida!", "ttsUrl": "https://example.com/tts/chukhahamnida.mp3"},
+        "zh": {"translatedPhrase": "恭喜！", "pronunciation": "Gōngxǐ!", "ttsUrl": "https://example.com/tts/gongxi.mp3"},
+        "ru": {"translatedPhrase": "Поздравляю!", "pronunciation": "Pozdravlyayu!", "ttsUrl": "https://example.com/tts/pozdravlyayu.mp3"},
+        "de": {"translatedPhrase": "Herzlichen Glückwunsch!", "pronunciation": "Herts-li-khen glyook-voonsh!", "ttsUrl": "https://example.com/tts/herzlichen_gluckwunsch.mp3"}
+      }
+    },
+    {
+      "phrase": "Good luck!",
+      "category": "Well-wishing",
+      "translations": {
+        "hi": {"translatedPhrase": "शुभकामनाएं!", "pronunciation": "Shubhkaamnaayen!", "ttsUrl": "https://example.com/tts/shubhkaamnaayen.mp3"},
+        "gu": {"translatedPhrase": "શુભેચ્છાઓ!", "pronunciation": "Shubhechchhaao!", "ttsUrl": "https://example.com/tts/shubhechchhaao_gu.mp3"},
+        "ja": {"translatedPhrase": "頑張ってください！", "pronunciation": "Ganbatte kudasai!", "ttsUrl": "https://example.com/tts/ganbatte_kudasai.mp3"},
+        "es": {"translatedPhrase": "¡Buena suerte!", "pronunciation": "Bweh-nah swehr-teh!", "ttsUrl": "https://example.com/tts/buena_suerte.mp3"},
+        "fr": {"translatedPhrase": "Bonne chance!", "pronunciation": "Bohn shahns!", "ttsUrl": "https://example.com/tts/bonne_chance.mp3"},
+        "ko": {"translatedPhrase": "행운을 빌어요!", "pronunciation": "Haeng'uneul bireoyo!", "ttsUrl": "https://example.com/tts/haenguneul_bireoyo.mp3"},
+        "zh": {"translatedPhrase": "祝你好运！", "pronunciation": "Zhù nǐ hǎoyùn!", "ttsUrl": "https://example.com/tts/zhu_ni_haoyun.mp3"},
+        "ru": {"translatedPhrase": "Удачи!", "pronunciation": "Udachi!", "ttsUrl": "https://example.com/tts/udachi.mp3"},
+        "de": {"translatedPhrase": "Viel Glück!", "pronunciation": "Feel glyook!", "ttsUrl": "https://example.com/tts/viel_gluck.mp3"}
+      }
+    },
+    {
+      "phrase": "What are you doing?",
+      "category": "Question",
+      "translations": {
+        "hi": {"translatedPhrase": "तुम क्या कर रहे हो?", "pronunciation": "Tum kya kar rahe ho?", "ttsUrl": "https://example.com/tts/tum_kya_kar_rahe_ho.mp3"},
+        "gu": {"translatedPhrase": "તમે શું કરી રહ્યા છો?", "pronunciation": "Tame shun karee rahyaa chho?", "ttsUrl": "https://example.com/tts/tame_shun_karee_rahyaa_chho.mp3"},
+        "ja": {"translatedPhrase": "何をしていますか？", "pronunciation": "Nani o shite imasu ka?", "ttsUrl": "https://example.com/tts/nani_o_shite_imasu_ka.mp3"},
+        "es": {"translatedPhrase": "¿Qué estás haciendo?", "pronunciation": "Keh es-tas ah-thee-en-do?", "ttsUrl": "https://example.com/tts/que_estas_haciendo.mp3"},
+        "fr": {"translatedPhrase": "Qu'est-ce que tu fais?", "pronunciation": "Kes-kuh too fay?", "ttsUrl": "https://example.com/tts/qu_est_ce_que_tu_fais.mp3"},
+        "ko": {"translatedPhrase": "뭐 하고 있어요?", "pronunciation": "Mwo hago isseoyo?", "ttsUrl": "https://example.com/tts/mwo_hago_isseoyo.mp3"},
+        "zh": {"translatedPhrase": "你在做什么？", "pronunciation": "Nǐ zài zuò shénme?", "ttsUrl": "https://example.com/tts/ni_zai_zuo_shenme.mp3"},
+        "ru": {"translatedPhrase": "Что ты делаешь?", "pronunciation": "Shto ty delayesh'?", "ttsUrl": "https://example.com/tts/chto_ty_delayesh.mp3"},
+        "de": {"translatedPhrase": "Was machst du?", "pronunciation": "Vas mahkst doo?", "ttsUrl": "https://example.com/tts/was_machst_du.mp3"}
+      }
+    },
+    {
+      "phrase": "I am working",
+      "category": "Activity",
+      "translations": {
+        "hi": {"translatedPhrase": "मैं काम कर रहा हूँ", "pronunciation": "Main kaam kar raha hoon", "ttsUrl": "https://example.com/tts/main_kaam_kar_raha_hoon.mp3"},
+        "gu": {"translatedPhrase": "હું કામ કરી રહ્યો છું", "pronunciation": "Hun kaam karee rahyo chhun", "ttsUrl": "https://example.com/tts/hun_kaam_karee_rahyo_chhun.mp3"},
+        "ja": {"translatedPhrase": "働いています", "pronunciation": "Hatarai te imasu", "ttsUrl": "https://example.com/tts/hatarai_te_imasu.mp3"},
+        "es": {"translatedPhrase": "Estoy trabajando", "pronunciation": "Es-toy tra-bah-han-do", "ttsUrl": "https://example.com/tts/estoy_trabajando.mp3"},
+        "fr": {"translatedPhrase": "Je travaille", "pronunciation": "Zhuh trah-vah-yuh", "ttsUrl": "https://example.com/tts/je_travaille.mp3"},
+        "ko": {"translatedPhrase": "일하고 있어요", "pronunciation": "Ilhago isseoyo", "ttsUrl": "https://example.com/tts/ilhago_isseoyo.mp3"},
+        "zh": {"translatedPhrase": "我在工作", "pronunciation": "Wǒ zài gōngzuò", "ttsUrl": "https://example.com/tts/wo_zai_gongzuo.mp3"},
+        "ru": {"translatedPhrase": "Я работаю", "pronunciation": "Ya rabotayu", "ttsUrl": "https://example.com/tts/ya_rabotayu.mp3"},
+        "de": {"translatedPhrase": "Ich arbeite", "pronunciation": "Ish ar-bite-eh", "ttsUrl": "https://example.com/tts/ich_arbeite.mp3"}
+      }
+    },
+    {
+      "phrase": "I am eating",
+      "category": "Activity",
+      "translations": {
+        "hi": {"translatedPhrase": "मैं खा रहा हूँ", "pronunciation": "Main kha raha hoon", "ttsUrl": "https://example.com/tts/main_kha_raha_hoon.mp3"},
+        "gu": {"translatedPhrase": "હું ખાઈ રહ્યો છું", "pronunciation": "Hun khai rahyo chhun", "ttsUrl": "https://example.com/tts/hun_khai_rahyo_chhun.mp3"},
+        "ja": {"translatedPhrase": "食べています", "pronunciation": "Tabete imasu", "ttsUrl": "https://example.com/tts/tabete_imasu.mp3"},
+        "es": {"translatedPhrase": "Estoy comiendo", "pronunciation": "Es-toy ko-mee-en-do", "ttsUrl": "https://example.com/tts/estoy_comiendo.mp3"},
+        "fr": {"translatedPhrase": "Je mange", "pronunciation": "Zhuh mahnj", "ttsUrl": "https://example.com/tts/je_mange.mp3"},
+        "ko": {"translatedPhrase": "먹고 있어요", "pronunciation": "Meokgo isseoyo", "ttsUrl": "https://example.com/tts/meokgo_isseoyo.mp3"},
+        "zh": {"translatedPhrase": "我在吃饭", "pronunciation": "Wǒ zài chīfàn", "ttsUrl": "https://example.com/tts/wo_zai_chifan.mp3"},
+        "ru": {"translatedPhrase": "Я ем", "pronunciation": "Ya yem", "ttsUrl": "https://example.com/tts/ya_yem.mp3"},
+        "de": {"translatedPhrase": "Ich esse", "pronunciation": "Ish es-seh", "ttsUrl": "https://example.com/tts/ich_esse.mp3"}
+      }
+    },
+    {
+      "phrase": "I am drinking",
+      "category": "Activity",
+      "translations": {
+        "hi": {"translatedPhrase": "मैं पी रहा हूँ", "pronunciation": "Main pee raha hoon", "ttsUrl": "https://example.com/tts/main_pee_raha_hoon.mp3"},
+        "gu": {"translatedPhrase": "હું પી રહ્યો છું", "pronunciation": "Hun pee rahyo chhun", "ttsUrl": "https://example.com/tts/hun_pee_rahyo_chhun.mp3"},
+        "ja": {"translatedPhrase": "飲んでいます", "pronunciation": "Nonde imasu", "ttsUrl": "https://example.com/tts/nonde_imasu.mp3"},
+        "es": {"translatedPhrase": "Estoy bebiendo", "pronunciation": "Es-toy beh-bee-en-do", "ttsUrl": "https://example.com/tts/estoy_bebiendo.mp3"},
+        "fr": {"translatedPhrase": "Je bois", "pronunciation": "Zhuh bwah", "ttsUrl": "https://example.com/tts/je_bois.mp3"},
+        "ko": {"translatedPhrase": "마시고 있어요", "pronunciation": "Masigo isseoyo", "ttsUrl": "https://example.com/tts/masigo_isseoyo.mp3"},
+        "zh": {"translatedPhrase": "我在喝水", "pronunciation": "Wǒ zài hē shuǐ", "ttsUrl": "https://example.com/tts/wo_zai_he_shui.mp3"},
+        "ru": {"translatedPhrase": "Я пью", "pronunciation": "Ya p'yu", "ttsUrl": "https://example.com/tts/ya_p'yu.mp3"},
+        "de": {"translatedPhrase": "Ich trinke", "pronunciation": "Ish trin-keh", "ttsUrl": "https://example.com/tts/ich_trinke.mp3"}
+      }
+    },
+    {
+      "phrase": "I am tired",
+      "category": "Feeling",
+      "translations": {
+        "hi": {"translatedPhrase": "मैं थक गया हूँ", "pronunciation": "Main thak gaya hoon", "ttsUrl": "https://example.com/tts/main_thak_gaya_hoon.mp3"},
+        "gu": {"translatedPhrase": "હું થાકી ગયો છું", "pronunciation": "Hun thaakee gayo chhun", "ttsUrl": "https://example.com/tts/hun_thaakee_gayo_chhun.mp3"},
+        "ja": {"translatedPhrase": "疲れています", "pronunciation": "Tsukarete imasu", "ttsUrl": "https://example.com/tts/tsukarete_imasu.mp3"},
+        "es": {"translatedPhrase": "Estoy cansado", "pronunciation": "Es-toy kan-sah-do", "ttsUrl": "https://example.com/tts/estoy_cansado.mp3"},
+        "fr": {"translatedPhrase": "Je suis fatigué", "pronunciation": "Zhuh swee fah-tee-gay", "ttsUrl": "https://example.com/tts/je_suis_fatigue.mp3"},
+        "ko": {"translatedPhrase": "피곤해요", "pronunciation": "Pigonhaeyo", "ttsUrl": "https://example.com/tts/pigonhaeyo.mp3"},
+        "zh": {"translatedPhrase": "我累了", "pronunciation": "Wǒ lèile", "ttsUrl": "https://example.com/tts/wo_leile.mp3"},
+        "ru": {"translatedPhrase": "Я устал", "pronunciation": "Ya ustal", "ttsUrl": "https://example.com/tts/ya_ustal.mp3"},
+        "de": {"translatedPhrase": "Ich bin müde", "pronunciation": "Ish bin moo-deh", "ttsUrl": "https://example.com/tts/ich_bin_mude.mp3"}
+      }
+    },
+    {
+      "phrase": "I am happy",
+      "category": "Feeling",
+      "translations": {
+        "hi": {"translatedPhrase": "मैं खुश हूँ", "pronunciation": "Main khush hoon", "ttsUrl": "https://example.com/tts/main_khush_hoon.mp3"},
+        "gu": {"translatedPhrase": "હું ખુશ છું", "pronunciation": "Hun khush chhun", "ttsUrl": "https://example.com/tts/hun_khush_chhun.mp3"},
+        "ja": {"translatedPhrase": "嬉しいです", "pronunciation": "Ureshii desu", "ttsUrl": "https://example.com/tts/ureshii_desu.mp3"},
+        "es": {"translatedPhrase": "Estoy feliz", "pronunciation": "Es-toy feh-leeth", "ttsUrl": "https://example.com/tts/estoy_feliz.mp3"},
+        "fr": {"translatedPhrase": "Je suis content(e)", "pronunciation": "Zhuh swee kohm-tahnt", "ttsUrl": "https://example.com/tts/je_suis_content.mp3"},
+        "ko": {"translatedPhrase": "행복해요", "pronunciation": "Haengbokhaeyo", "ttsUrl": "https://example.com/tts/haengbokhaeyo.mp3"},
+        "zh": {"translatedPhrase": "我很高兴", "pronunciation": "Wǒ hěn gāoxìng", "ttsUrl": "https://example.com/tts/wo_hen_gaoxing.mp3"},
+        "ru": {"translatedPhrase": "Я счастлив", "pronunciation": "Ya schastliv", "ttsUrl": "https://example.com/tts/ya_schastliv.mp3"},
+        "de": {"translatedPhrase": "Ich bin glücklich", "pronunciation": "Ish bin glyook-lish", "ttsUrl": "https://example.com/tts/ich_bin_glucklich.mp3"}
+      }
+    },
+    {
+      "phrase": "I am sad",
+      "category": "Feeling",
+      "translations": {
+        "hi": {"translatedPhrase": "मैं उदास हूँ", "pronunciation": "Main udaas hoon", "ttsUrl": "https://example.com/tts/main_udaas_hoon.mp3"},
+        "gu": {"translatedPhrase": "હું દુઃખી છું", "pronunciation": "Hun duhkhee chhun", "ttsUrl": "https://example.com/tts/hun_duhkhee_chhun.mp3"},
+        "ja": {"translatedPhrase": "悲しいです", "pronunciation": "Kanashii desu", "ttsUrl": "https://example.com/tts/kanashii_desu.mp3"},
+        "es": {"translatedPhrase": "Estoy triste", "pronunciation": "Es-toy trees-teh", "ttsUrl": "https://example.com/tts/estoy_triste.mp3"},
+        "fr": {"translatedPhrase": "Je suis triste", "pronunciation": "Zhuh swee treest", "ttsUrl": "https://example.com/tts/je_suis_triste.mp3"},
+        "ko": {"translatedPhrase": "슬퍼요", "pronunciation": "Seulpeoyo", "ttsUrl": "https://example.com/tts/seulpeoyo.mp3"},
+        "zh": {"translatedPhrase": "我很难过", "pronunciation": "Wǒ hěn nánguò", "ttsUrl": "https://example.com/tts/wo_hen_nanguo.mp3"},
+        "ru": {"translatedPhrase": "Мне грустно", "pronunciation": "Mne grustno", "ttsUrl": "https://example.com/tts/mne_grustno.mp3"},
+        "de": {"translatedPhrase": "Ich bin traurig", "pronunciation": "Ish bin trow-rikh", "ttsUrl": "https://example.com/tts/ich_bin_traurig.mp3"}
+      }
+    },
+    {
+      "phrase": "It's hot",
+      "category": "Weather",
+      "translations": {
+        "hi": {"translatedPhrase": "यह गरम है", "pronunciation": "Yah garam hai", "ttsUrl": "https://example.com/tts/yah_garam_hai.mp3"},
+        "gu": {"translatedPhrase": "તે ગરમ છે", "pronunciation": "Te garam chhe", "ttsUrl": "https://example.com/tts/te_garam_chhe.mp3"},
+        "ja": {"translatedPhrase": "暑いです", "pronunciation": "Atsui desu", "ttsUrl": "https://example.com/tts/atsui_desu.mp3"},
+        "es": {"translatedPhrase": "Hace calor", "pronunciation": "Ah-theh kah-lor", "ttsUrl": "https://example.com/tts/hace_calor.mp3"},
+        "fr": {"translatedPhrase": "Il fait chaud", "pronunciation": "Eel fay shoh", "ttsUrl": "https://example.com/tts/il_fait_chaud.mp3"},
+        "ko": {"translatedPhrase": "더워요", "pronunciation": "Deowoyo", "ttsUrl": "https://example.com/tts/deowoyo.mp3"},
+        "zh": {"translatedPhrase": "很热", "pronunciation": "Hěn rè", "ttsUrl": "https://example.com/tts/hen_re.mp3"},
+        "ru": {"translatedPhrase": "Жарко", "pronunciation": "Zharko", "ttsUrl": "https://example.com/tts/zharko.mp3"},
+        "de": {"translatedPhrase": "Es ist heiß", "pronunciation": "Es ist highs", "ttsUrl": "https://example.com/tts/es_ist_heiss.mp3"}
+      }
+    },
+    {
+      "phrase": "It's cold",
+      "category": "Weather",
+      "translations": {
+        "hi": {"translatedPhrase": "यह ठंडा है", "pronunciation": "Yah thanda hai", "ttsUrl": "https://example.com/tts/yah_thanda_hai.mp3"},
+        "gu": {"translatedPhrase": "તે ઠંડુ છે", "pronunciation": "Te thandu chhe", "ttsUrl": "https://example.com/tts/te_thandu_chhe.mp3"},
+        "ja": {"translatedPhrase": "寒いです", "pronunciation": "Samui desu", "ttsUrl": "https://example.com/tts/samui_desu.mp3"},
+        "es": {"translatedPhrase": "Hace frío", "pronunciation": "Ah-theh free-o", "ttsUrl": "https://example.com/tts/hace_frio.mp3"},
+        "fr": {"translatedPhrase": "Il fait froid", "pronunciation": "Eel fay frwah", "ttsUrl": "https://example.com/tts/il_fait_froid.mp3"},
+        "ko": {"translatedPhrase": "추워요", "pronunciation": "Chuwoyo", "ttsUrl": "https://example.com/tts/chuwoyo.mp3"},
+        "zh": {"translatedPhrase": "很冷", "pronunciation": "Hěn lěng", "ttsUrl": "https://example.com/tts/hen_leng.mp3"},
+        "ru": {"translatedPhrase": "Холодно", "pronunciation": "Kholodno", "ttsUrl": "https://example.com/tts/kholodno.mp3"},
+        "de": {"translatedPhrase": "Es ist kalt", "pronunciation": "Es ist kalt", "ttsUrl": "https://example.com/tts/es_ist_kalt.mp3"}
+      }
+    },
+    {
+      "phrase": "It's raining",
+      "category": "Weather",
+      "translations": {
+        "hi": {"translatedPhrase": "बारिश हो रही है", "pronunciation": "Baarish ho rahi hai", "ttsUrl": "https://example.com/tts/baarish_ho_rahi_hai.mp3"},
+        "gu": {"translatedPhrase": "વરસાદ પડી રહ્યો છે", "pronunciation": "Varasaad padee rahyo chhe", "ttsUrl": "https://example.com/tts/varasaad_padee_rahyo_chhe.mp3"},
+        "ja": {"translatedPhrase": "雨が降っています", "pronunciation": "Ame ga futte imasu", "ttsUrl": "https://example.com/tts/ame_ga_futte_imasu.mp3"},
+        "es": {"translatedPhrase": "Está lloviendo", "pronunciation": "Es-tah yo-vee-en-do", "ttsUrl": "https://example.com/tts/esta_lloviendo.mp3"},
+        "fr": {"translatedPhrase": "Il pleut", "pronunciation": "Eel plu", "ttsUrl": "https://example.com/tts/il_pleut.mp3"},
+        "ko": {"translatedPhrase": "비가 와요", "pronunciation": "Bigayo wayo", "ttsUrl": "https://example.com/tts/bigayo_wayo.mp3"},
+        "zh": {"translatedPhrase": "下雨了", "pronunciation": "Xià yǔ le", "ttsUrl": "https://example.com/tts/xia_yu_le.mp3"},
+        "ru": {"translatedPhrase": "Идет дождь", "pronunciation": "Idet dozhd'", "ttsUrl": "https://example.com/tts/idet_dozhd.mp3"},
+        "de": {"translatedPhrase": "Es regnet", "pronunciation": "Es reg-net", "ttsUrl": "https://example.com/tts/es_regnet.mp3"}
+      }
+    },
+    {
+      "phrase": "It's sunny",
+      "category": "Weather",
+      "translations": {
+        "hi": {"translatedPhrase": "धूप खिली है", "pronunciation": "Dhoop khili hai", "ttsUrl": "https://example.com/tts/dhoop_khili_hai.mp3"},
+        "gu": {"translatedPhrase": "સૂર્યપ્રકાશ છે", "pronunciation": "Sooryaprakaash chhe", "ttsUrl": "https://example.com/tts/sooryaprakaash_chhe.mp3"},
+        "ja": {"translatedPhrase": "晴れています", "pronunciation": "Harete imasu", "ttsUrl": "https://example.com/tts/harete_imasu.mp3"},
+        "es": {"translatedPhrase": "Hace sol", "pronunciation": "Ah-theh sol", "ttsUrl": "https://example.com/tts/hace_sol.mp3"},
+        "fr": {"translatedPhrase": "Il fait soleil", "pronunciation": "Eel fay soh-lay", "ttsUrl": "https://example.com/tts/il_fait_soleil.mp3"},
+        "ko": {"translatedPhrase": "날씨가 맑아요", "pronunciation": "Nalsiga malgayo", "ttsUrl": "https://example.com/tts/nalsiga_malgayo.mp3"},
+        "zh": {"translatedPhrase": "阳光明媚", "pronunciation": "Yángguāng míngmèi", "ttsUrl": "https://example.com/tts/yangguang_mingmei.mp3"},
+        "ru": {"translatedPhrase": "Солнечно", "pronunciation": "Solnechno", "ttsUrl": "https://example.com/tts/solnechno.mp3"},
+        "de": {"translatedPhrase": "Es ist sonnig", "pronunciation": "Es ist zon-nikh", "ttsUrl": "https://example.com/tts/es_ist_sonnig.mp3"}
+      }
+    }
+  ]

@@ -1,0 +1,62 @@
+version: '3'
+
+services:
+  api_gateway:
+    build:
+      context: ./api_gateway
+    ports:
+      - "8000:8000"
+    depends_on:
+      - translation_service
+      - map_service
+      - packing_service
+    environment:
+      - TRANSLATION_SERVICE_URL=http://translation_service:8001
+      - MAP_SERVICE_URL=http://map_service:8002
+      - PACKING_SERVICE_URL=http://packing_service:8003
+    networks:
+      - travel_assistant_network
+
+  translation_service:
+    build:
+      context: ./translation_service
+    ports:
+      - "8001:8001"
+    environment:
+      - SERVICE_PORT=8001
+      - MONGO_URI=${MONGO_URI}
+      - GCP_PROJECT_ID=${GCP_PROJECT_ID}
+      - GCS_BUCKET_NAME=${GCS_BUCKET_NAME}
+      - SERVICE_ACCOUNT_KEY_PATH=/app/google_credentials.json
+    volumes:
+      - ${SERVICE_ACCOUNT_KEY_PATH}:/app/google_credentials.json:ro
+    networks:
+      - travel_assistant_network
+
+  map_service:
+    build:
+      context: ./map_service
+    ports:
+      - "8002:8002"
+    environment:
+      - SERVICE_PORT=8002
+      - MONGO_URI=${MONGO_URI}
+    networks:
+      - travel_assistant_network
+
+  packing_service:
+    build:
+      context: ./packing_service
+    ports:
+      - "8003:8003"
+    environment:
+      - SERVICE_PORT=8003
+    networks:
+      - travel_assistant_network
+
+networks:
+  travel_assistant_network:
+    driver: bridge
+    
+volumes:
+  mongo_data: 
