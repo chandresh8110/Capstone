@@ -2,7 +2,7 @@ name: Build, Tag, and Push Docker Images to Amazon ECR
 
 on:
   push:
-    branches: [main]  # Trigger on main branch push
+    branches: main  # Trigger on main branch push
 
 env:
   AWS_REGION: us-east-1
@@ -40,4 +40,3 @@ jobs:
             echo "Pushing $SERVICE with tags 'latest' and '$COMMIT_SHA'..."
             docker push $IMAGE_NAME:latest
             docker push $IMAGE_NAME:$COMMIT_SHA
-          done
