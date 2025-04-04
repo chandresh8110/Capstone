@@ -2,7 +2,7 @@ name: Build, Tag, and Push Docker Images to Amazon ECR
 
 on:
   push:
-    branches: main  # Trigger on main branch push
+    branches: [main]
 
 env:
   AWS_REGION: us-east-1
@@ -33,10 +33,12 @@ jobs:
 
           for SERVICE in "${SERVICES[@]}"; do
             IMAGE_NAME="$AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/$SERVICE"
+            SERVICE_DIR="TravelAssistant/$SERVICE"
 
-            echo "Building $SERVICE..."
-            docker build -t $IMAGE_NAME:latest -t $IMAGE_NAME:$COMMIT_SHA ./$SERVICE
+            echo "Building $SERVICE from $SERVICE_DIR..."
+            docker build -t $IMAGE_NAME:latest -t $IMAGE_NAME:$COMMIT_SHA ./$SERVICE_DIR
 
-            echo "Pushing $SERVICE with tags 'latest' and '$COMMIT_SHA'..."
+            echo "Pushing $SERVICE..."
             docker push $IMAGE_NAME:latest
             docker push $IMAGE_NAME:$COMMIT_SHA
+          done
